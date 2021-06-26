@@ -13,11 +13,12 @@ catkin_package()
 ###########
 
 foreach(bin IN ITEMS
+  ros_delete_param
   ros_time_init
 )
 
   add_executable(${bin}
-    src/${bin}.cpp
+    src/${bin}/main.cpp
   )
 
   target_include_directories(${bin}

@@ -1,7 +1,7 @@
-## ros_time_init
+# ros_time_init
 
 ROS Master が立ち上がっていなくても、`ros::Time::now()`は正常に呼び出し可能．ただし、予め`ros::Time::init()`を呼んでおく必要がある．  
-おそらく、テストコードだけに留めておいた方がよい．
+テストコードだけに留めておいた方がよい．
 
 ```sh-session
 $ rosrun roscpp_misc ros_time_init
