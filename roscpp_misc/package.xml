@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>roscpp_misc</name>
+  <version>0.0.0</version>
+  <description>The roscpp_misc package</description>
+
+  <maintainer email="yuma.hiramatsu@gmail.com">Yuma Hiramatsu</maintainer>
+  <author email="yuma.hiramatsu@gmail.com">Yuma Hiramatsu</author>
+
+  <license>Apatch License 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+
+  <export></export>
+</package>
